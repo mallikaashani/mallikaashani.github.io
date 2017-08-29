@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="styles2.css" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+    <div class="heading">
+      <div><a href="index.html"><img class="logo--img" src="img/logo2.png"></a></div>
+
+
+      <!-- <h1 id="greeting">Hi! I'm Mallika</h1> -->
+      <!-- <p>I'm a recent Cal alum excited about opportunities in product management, consulting, strategy, and analytics. I'm interested in the intersection of business, engineering, and design.</p> -->
+    </div>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav--item"><a href="Work.html">work</a></li>
+          <li class="nav--item"><a href="About.html">about</a></li>
+          <li class="nav--item"><a href="Blog.html">blog</a></li>
+        </ul>
+      </nav>
+
+      <h1>ScheduleBuilder: Managing Our Most Important Resource</h1>
+
+      <div>
+		<p>
+	This summer, my little brother and I started writing out our to do’s together and checking in on our progress together. Every check in, it felt like we weren’t getting things done- even though they were all tasks or activities that were either of personal interest or important tasks to get done to move towards our goals. Given the amount of unstructured time we had this summer, it felt like we were being unproductive. It’s not like we were having fun necessarily but we were weren’t getting stuff done either. We were operating in the “dark playground” (as Tim Urban of Wait But Why would call it). Over time I started thinking harder about this problem and found that it was something that my friends also struggle with in their own ways.
+</p>
+
+<p>Time seems to be the one of the most important resources for people if not the most important. Once it’s gone, it never comes back and how we use it defines us as people. As a result, it’s essential to use your time in a way that reflects your priorities and can help you achieve your goals. However, this can be really difficult to do because oftentimes planning your time out becomes a tedious task in itself. In fact, even after taking the time to lay out your to do’s, schedule them in and set up reminders, it can be nearly impossible to keep up the pace of productivity that is theoretically possible in your head.</p>
+
+<p>Essentially, time management can be difficult for the following reasons:
+	<ul>
+<li>Time consuming and tedious</li>
+<li>You forget to account for interdependencies/unexpected events</li>
+<li>Rigidity, it can be difficult to recover once things are thrown off</li>
+<li>It can be difficult to reflect your priorities when planning things out</li>
+</ul>
+</p>
+
+<p>Given the problems listed out above, I started thinking about a solution that minimizes the factors you need to think about, can be flexible in adjusting your schedule, and can ask the right questions when needed to ensure you’re not dropping the ball on anything important.</p>
+
+<p>In order to help address some of these pain points, I thought it would be interesting to reverse engineer my brother’s weekly schedule to ensure he was able to dedicate your time to everything that’s important. People usually juggle a lot whether that’s work, family, hobbies, fitness, or leisure time- but more realistically, they prioritize a combination of them. While that may be difficult to account for all that within the 24 hours of one day, it’s easier to look at the 168 hours of the week and consider how to budget them. By explicitly stating what’s important and making sure that is reflected in the allocation of your weekly hours, you can then generate schedules for your week that work for you. In my proposed solution, this could be automated and the solution would be able to account for any changes and can help you keep track of your outcomes. With the ability to see what goes on every week, you can further inform your decisions on how to spend your time or even rework your priorities.</p>
+
+<p>As excited about the solution as I was, I considered various problems. One such issue is the amount of information the user has to input. For instance, maybe people don’t calculate their average time spent eating in a day. Perhaps, having to input a lot of information about your time essentially would only continue the initial problem of scheduling being tedious.</p>
+
+<p>But perhaps with the right design and set of features, the solution could address all the challenges mentioned above, or at the very least do a better job than existing tools. Regardless, this sounded like an interesting and super relevant problem to work on. At this point, I started prototyping a low fidelity prototype, but soon realized I needed to understand how people think of their time first (and validate the need for my solution).
+</p>
+
+<p>I validated my idea by sharing a Google survey on social media to see what people struggle with and whether my proposed solution would be of interest. I included questions about existing time management tools people use, how people rate themselves, and what they struggle with. I shared it on social media and got 155 responses to learn from.* (Thank you Dibyo, Flora, and Hiral for helping!)</p>
+
+<p>As expected, I found that most people plan out their time in advance. 60% of the respondents plan out their weeks in advance and ~47% of them plan out their days (some of which do both). The Schedule Generator plans out for a week and also provides a daily summary of events. This seems to fit the timeframe people consider, so I kept that format.
+</p>
+
+<p>In terms of devices, it makes sense phones are widely used given users have their phones with them all day. However, in general, pen and paper is used the most. When asked what tools (Google Calendar, Outlook, etc.) they use to manage their time, ~68% of respondents said they use pen and paper. ~59% said they use Google Calendar.</p>
+
+<img src="img/b2-1.jpg">
+<p>I also asked people about what they hope to include in their schedules more. Unsurprisingly, exercise was a big one. In addition, recreation, socializing, and self care came up as theme. Otherwise, people had various priorities from coding to spending time with family and doing school work/studying.</p>
+
+<p>Next, I wanted to know about how people rate themselves and what they find most difficult as they manage their time. The average was 6.14. This is higher than I thought but 60% is still relatively low.</p>
+
+<img src="img/b2-2.jpg">
+
+<p>A big portion of our respondents said that they struggle to find time to do everything they want to do. The Schedule Generator is as a result aimed at dealing with exactly that and ensuring the way they dedicate their time reflects their priorities. The next biggest struggle was a tie between “Distributing your time unrealistically” and “Not achieving your to do’s”- two things that probably feed each other. In addition, 46.5% of the respondents struggled with remembering all their to do’s, something again, that feeds not achieving their to do’s. I found that forgetting to do’s affected such a high percentage of my respondents given a huge majority of them get reminders on their phones. In general though, the comments highlighted the struggles of being human. People struggle with maintaining motivation and dealing with distractions- as well as being aware of their energy levels. To some extent, perhaps gamification could be a way of creating that motivation. Additionally, an “Insights” feature can give users a better understanding of themselves and their energy levels. I plan on asking questions so I can learn more about motivation and some issues people face in maintaining it.
+</p>
+
+<p>In terms of what improvements people would like to see in the existing tools they use the following points came up:
+	<ul>
+<li>Make it easier to input events and reschedule them</li>
+<li>Make it simple to sync calendars from different apps and devices</li>
+<li>Better reminders/notifications</li>
+<li>A tool that functions as a planner book or bullet journal</li>
+<li>Providing some motivation</li>
+</ul></p>
+
+<p>With that information and the intent to learn more through in-depth user interviews, I completed my first prototype. The process was challenging in some ways and I learned a lot through my first few user interviews. I’ll share more on that later.</p>
+
+<p>*Given I shared my survey on social media groups and with friends largely ages 18-24, most of my responses were from people who are going to school or both going to school and working.
+</p>      	
+
+      </div>
+
+  </main>
+</body>
+ 
+
