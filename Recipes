@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="styles2.css" rel="stylesheet">
+</head>
+<body>
+  <main class="main">
+  <div>
+      <div class="heading">
+      <div><a href="index.html"><img class="logo--img" src="img/logo2.png"></a></div>
+
+
+      <!-- <h1 id="greeting">Hi! I'm Mallika</h1> -->
+    </div>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav--item"><a href="Work.html">work</a></li>
+          <li class="nav--item"><a href="About.html">about</a></li>
+          <li class="nav--item"><a href="Blog.html">blog</a></li>
+        </ul>
+      </nav>
+
+
+  </header>
+
+<div class="experience">
+      <div class="experience--header">
+      <h2 class="experience--title">Oats 4 Ways</h2>
+      </div>
+      <div class="experience--details">
+        <div><p>Oatmeal is cheap, healthy, filling, and great to have on hand- but plain oatmeal can be boring. These are 4 ways I like to make rolled oats.</p>
+          <div class="readMore">
+          <a href="Oats4Ways.html">Read More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="experience">
+      <div class="experience--header">
+      <h2 class="experience--title">Canned Beans 2 Ways</h2>
+      </div>
+      <div class="experience--details">
+        <div><p>Canned beans are a versatile pantry staple- they can be used in soups and salads- here are 2 ways I like to use them for sandwiches.</p>
+          <div class="readMore">
+          <a href="CannedBeans.html">Read More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="experience">
+      <div class="experience--header">
+      <h2 class="experience--title">Roasted Vegetable Salad</h2>
+      </div>
+      <div class="experience--details">
+        <div><p>Salads can be delicious, healthy, and perfect for a lighter meal. Here's one of my favorite salads.</p>
+          <div class="readMore">
+          <a href="RoastedVegSalad.html">Read More</a>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  </main>
+</body>
