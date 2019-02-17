@@ -4,6 +4,8 @@
   <meta name=viewport content="width=device-width, initial-scale=1">
 
   <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="base.css" rel="stylesheet">
+  <link href="recipes.css" rel="stylesheet">
 </head>
 
 <body>
@@ -34,93 +36,6 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700" rel="stylesheet">  
 </html>
 <body>
-  <style>
-    html {
-      font-family: 'Lato', sans-serif;
-      font-size: 14.67;
-      color: #666666;
-       line-height: 1.5; 
-    }
-    strong {
-      color: black;
-    }
-    h2, h3, h4, h5, h6, h7 {
-      font-family: 'Playfair Display', serif;
-      color: rgb(247, 93, 93);
-      margin: 0;
-      line-height: 1.2; 
-    }
-    ul, ol {
-      padding: 0;
-    }
-    li {
-      margin-top: 8px;
-      list-style-type: none;
-    }
-    ul > li {
-      position: relative;
-      margin-left: 20px;
-    }
-    ul > li::before {
-      position: absolute;
-      left: -20px;
-      content: '●';
-      color: #cccccc;
-    }
-    ol {
-      counter-reset: list-counter;
-    }
-    ol > li {
-      position: relative;
-      margin-left: 20px;
-    }
-    ol > li::before {
-      position: absolute;
-      left: -20px;
-      content: counter(list-counter, decimal);
-      counter-increment: list-counter;
-      color: #cccccc;
-    }
-  </style>
-
-  <style>
-    .recipe {
-      display: flex;
-      flex-direction: row;
-      width: 50%;
-      margin-right: 25%;
-      margin-left: 25%;
-    }
-    .recipe--column {
-      width: 300px;
-      margin-top: 25px;
-      margin-bottom: 25px;
-    }
-    .recipe--column:not(:first-child) {
-      margin-left: 40px;
-    }
-    .recipe--img {
-      width: 100%;
-    }
-    .title {
-      font-size: 42.67px;
-      font-weight: 700;
-      margin-bottom: 20px;
-    }
-    .subheading {
-      font-size: 21.33px;
-      margin-bottom: 4px;
-    }
-    .label {
-      font-size: 16px;
-      text-transform: uppercase;
-    }
-    .section {
-      margin-top: 20px;
-      margin-bottom: 10px;
-    }
-  </style>
-
   <div class="recipe">
     <div class="recipe--column">
       <div class="label">Recipe</div>

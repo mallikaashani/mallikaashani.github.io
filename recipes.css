@@ -1,0 +1,43 @@
+.recipe {
+  display: flex;
+  flex-direction: row;
+}
+
+.recipe--column {
+  flex: 1;
+  width: 300px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.recipe--column:not(:first-child) {
+  margin-left: 40px;
+}
+
+.recipe--img {
+  width: 100%;
+}
+
+.title {
+  color: rgb(247, 93, 93);
+  font-size: 42.67px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  color: rgb(247, 93, 93);
+  font-size: 21.33px;
+  margin-bottom: 4px;
+}
+
+.label {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.section {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
