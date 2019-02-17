@@ -33,11 +33,16 @@ html {
 
 .nav--item {
   display: block;
+  margin-left: 0;
   padding-left: 45px;
   padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
+}
+
+.nav--item::before {
+  display: none;
 }
 
 .nav--item > a {
