@@ -1,0 +1,105 @@
+<html>
+
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="base.css" rel="stylesheet">
+  <link href="recipes.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="main">
+  <div>
+    <link href="styles2.css" rel="stylesheet">
+      <div class="heading">
+      <div><a href="index.html"><img class="logo--img" src="img/logo2.png"></a></div>
+
+
+      <h1 id="greeting">Hi! I'm Mallika</h1>
+    </div>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav--item"><a href="Work.html">work</a></li>
+          <li class="nav--item"><a href="About.html">about</a></li>
+          <li class="nav--item"><a href="Blog.html">blog</a></li>
+        </ul>
+      </nav>
+
+      <p> 
+       Here's a delicious, low-carb, beautiful dish for a weekend dinner with friends or even a meal prepped weekday lunch- not to mention it's so easy to make.
+      </p>
+
+
+  <title>Recipe</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700" rel="stylesheet">  
+</html>
+<body>
+  <div class="recipe">
+    <div class="recipe--column">
+      <div class="label">Recipe</div>
+      <h2 class="title">Spaghetti Squash Boatsd</h2>
+
+      <img class="recipe--img" src="https://place-hold.it/400x500" />
+
+      <section class="section">
+        <div class="hint">Ready in <strong>50 minutes</strong></div>
+        <div class="hint">Serves <strong>4-6 people (depending on size of the squash</strong></div>
+      </section>
+
+      <section class="section">
+        <h3 class="subheading">Tips</h3>
+        <div>
+          This is a very customizable recipe. You can add the vegetables and flavors you prefer. If you prefer, you can scrape out the cooked squash into a seperate bowl and add your sauce.
+
+        </div>
+    </div>
+
+    <div class="recipe--column">
+      <section class="section">
+        <h3 class="subheading">Ingredients</h3>
+        <ul>
+          <li>1 spaghetti squash</li>
+          <li>Vegetable(s) of choice</li>
+          <li>Bean(s) of choice</li>
+          <li>Sauce of choice</li>
+          <li>Cheese of choice</li>
+
+
+        </ul>
+      </section>
+
+      <section class="section">
+        <h3 class="subheading">Preparation</h3>
+        <ol>
+          <li>
+            <strong>Roast your squash.</strong> Cut the squash in half. Coat with olive oil. Season with salt and pepper.
+          </li>
+          <li>
+            Roast for 40 minutes at 400 degrees. You might need extra time if the squash does not easily fluff up with a fork. A bigger squash will need about 10 more minutes.
+          </li>
+          <li>
+            <strong>Make your sauce of choice.</strong> For Italian flavors, saute kale with some minced garlic. Add in pesto and chickpeas.
+          </li>
+          <li>
+            For Mexican flavors, saute corn and black beans with some taco seasoning. Add diced tomatoes and bell peppers.
+          </li>
+          <li>
+            <strong>Assemble and broil.</strong> Fluff the squash with a fork once cooked.
+          </li>
+          <li>
+            Mix in your sauce of choice and top with cheese. Broil for a few minutes until cheese is bubbly.
+          </li>
+          <li>
+            Let cool slightly and serve. Garnish with fresh herbs and maybe a slice of lime.
+          </li>
+          
+
+        </ol>
+      </section>
+    </div>
+  </div>
+
+
+</body>
