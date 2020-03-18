@@ -1,0 +1,104 @@
+<html>
+
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="base.css" rel="stylesheet">
+  <link href="recipes.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="main">
+  <div>
+    <link href="styles2.css" rel="stylesheet">
+      <div class="heading">
+      <div><a href="index.html"><img class="logo--img" src="img/logo2.png"></a></div>
+
+
+      <h1 id="greeting">Hi! I'm Mallika</h1>
+    </div>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav--item"><a href="Work.html">work</a></li>
+          <li class="nav--item"><a href="About.html">about</a></li>
+          <li class="nav--item"><a href="Blog.html">blog</a></li>
+        </ul>
+      </nav>
+
+      <p> 
+         This is an easy cabbage salad that kind of reminds me of Burmese Tea Leaf salad- good side dish with Indian/Asian flavors.
+      </p>
+
+
+  <title>Recipe</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700" rel="stylesheet">  
+</html>
+<body>
+  <div class="recipe">
+    <div class="recipe--column">
+      <div class="label">Recipe</div>
+      <h2 class="title">Cabbage Salad</h2>
+
+      <img class="recipe--img" src="https://place-hold.it/400x500" />
+
+      <section class="section">
+        <div class="hint">Ready in <strong>10 minutes</strong></div>
+        <div class="hint">Serves <strong>4 people</strong></div>
+      </section>
+
+      <section class="section">
+        <h3 class="subheading">Tips</h3>
+        <div>
+          You can add chopped serrano chillies or jalapenos to this if you want it spicier. This goes great with Indian or Thai food.
+        </div>
+    </div>
+
+    <div class="recipe--column">
+      <section class="section">
+        <h3 class="subheading">Ingredients</h3>
+        <ul>
+          <li>1 medium cabbage</li>
+          <li>2 medium tomatoes</li>
+          <li>1 small Persian cucumber</li>
+          <li>1/4 cup peanuts</li>
+          <li>2 tablespoons lemon juice</li>
+          <li>2 tablespoons finely chopped cilantro (opt)</li>
+          <li>Salt and pepper to taste</li>
+
+        </ul>
+      </section>
+
+      <section class="section">
+        <h3 class="subheading">Preparation</h3>
+        <ol>
+          <li>
+            Shred the cabbage as as finely as you can. You'll need about 4 cups.
+          </li>
+          <li>
+            Dice tomatoes and cucumber. 
+          </li>
+          <li>
+            Roast the peanuts on medium heat till fragrant. Toss in pan often to prevent burning.
+          </li>
+          <li>
+            Chop or grind peanuts into a crumble in a mortar and pestle.
+          </li>
+          <li>
+            Mix the shredded cabbage with the juice of a lemon. Add the tomatoes and cucumbers.
+          </li>
+          <li>
+            Add in the crushed peanuts, as well as (optional) cilantro and chopped chillies.
+          </li>
+          <li>
+            Season the with salt and pepper and give a final mix.
+          </li>
+
+        </ol>
+      </section>
+    </div>
+  </div>
+
+
+</body>
