@@ -1,0 +1,114 @@
+<html>
+
+<head>
+  <meta name=viewport content="width=device-width, initial-scale=1">
+
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <link href="base.css" rel="stylesheet">
+  <link href="recipes.css" rel="stylesheet">
+</head>
+
+<body>
+  <main class="main">
+  <div>
+    <link href="styles2.css" rel="stylesheet">
+      <div class="heading">
+      <div><a href="index.html"><img class="logo--img" src="img/logo2.png"></a></div>
+
+
+      <h1 id="greeting">Hi! I'm Mallika</h1>
+    </div>
+
+      <nav>
+        <ul class="nav">
+          <li class="nav--item"><a href="Work.html">work</a></li>
+          <li class="nav--item"><a href="About.html">about</a></li>
+          <li class="nav--item"><a href="Blog.html">blog</a></li>
+        </ul>
+      </nav>
+
+      <p> 
+         This is an easy farro bowl that has a punchy mustard dressing and is easy for meal prep.
+      </p>
+
+
+  <title>Recipe</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700|Playfair+Display:400,700" rel="stylesheet">  
+</html>
+<body>
+  <div class="recipe">
+    <div class="recipe--column">
+      <div class="label">Recipe</div>
+      <h2 class="title">Farro Salad</h2>
+
+      <img class="recipe--img" src="https://place-hold.it/400x500" />
+
+      <section class="section">
+        <div class="hint">Ready in <strong>45 minutes</strong></div>
+        <div class="hint">Serves <strong>4 people</strong></div>
+      </section>
+
+      <section class="section">
+        <h3 class="subheading">Tips</h3>
+        <div>
+          You can add any nuts, greens, or vegetables that you like in this. You can also dress the farro with a simpler Italian dressing if you don't like mustard.
+        </div>
+    </div>
+
+    <div class="recipe--column">
+      <section class="section">
+        <h3 class="subheading">Ingredients</h3>
+        <ul>
+          <li>1 cup farro</li>
+          <li>1 large sweet potato</li>
+          <li>1 cup roughly chopped baby spinach</li>
+          <li>1/4 cup roasted almonds</li>
+          <li>1/4 cup crumbled feta</li>
+          <li>2 tablespoons finely chopped parsley (opt)</li> 
+          <li>1/4 cup olive oil</li>
+          <li>2 tablespoons apple cider vinegar</li>
+          <li>1 teaspoon mustard (whole grain is very good)</li>
+          <li>1/2 teaspoon maple syrup</li>
+          <li>Salt and pepper to taste</li>
+
+        </ul>
+      </section>
+
+      <section class="section">
+        <h3 class="subheading">Preparation</h3>
+        <ol>
+          <li>
+            Soak the farro for 6-8 hours (or overnight).
+          </li>
+          <li>
+            Cook the soaked farro in salted water. 
+          </li>
+          <li>
+            Chop the sweet potato into quarter inch cubes.
+          </li>
+          <li>
+            Cook the sweet potato in a skillet with some oil, salt, and pepper until fully tender. (You can also roast in the oven for 20-25 minutes.)
+          </li>
+          <li>
+            Roast the almonds on medium heat till fragrant. Toss in pan often to prevent burning.
+          </li>
+          <li>
+            Roughly chop almonds.
+          </li>
+          <li>
+            Make mustard vinaigrette. Whisk together apple cider vinegar, mustard, olive oil, and maple syrup. Keep this dressing seperate if you are meal prepping.
+          </li>
+          <li>
+            Assemble the salad. Add spinach, farro, sweet potato, toasted almonds, and feta to a bowl. Mix with dressing as desired.
+          </li>
+          <li>
+            Season the salad with salt and pepper to taste and give a final mix.
+          </li>
+
+        </ol>
+      </section>
+    </div>
+  </div>
+
+
+</body>
